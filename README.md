@@ -6,7 +6,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/Meditrack-App.git](https://github.com/your-username/Meditrack-App.git)
+   git clone(https://github.com/Piyumikahasini/Meditrack-App.git)
 
 **Navigate to the flutter_project directory:**
 ```bash
