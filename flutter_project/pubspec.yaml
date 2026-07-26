@@ -1,0 +1,41 @@
+name: meditrack_app
+description: "MediTrack - Personal Health & Medication Reminder App. Developed for COM640 - Advanced Mobile Development."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local SQLite database for persistent data storage (Users, Medications, Water Logs)
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  path: ^1.9.0
+
+  # Local notifications for medication alarms
+  flutter_local_notifications: ^17.2.1
+
+  # Utility for formatting Date/Time
+  intl: ^0.19.0
+
+  # Typography for a clean, medical-app look
+  google_fonts: ^6.1.0
+
+  # Circular progress indicator wrapper for the water tracker
+  flutter_percent_indicator:
+    path: packages/flutter_percent_indicator
+
+  # Icons and visual design elements
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

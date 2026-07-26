@@ -1,0 +1,12 @@
+name: flutter_percent_indicator
+description: Wrapper package to redirect flutter_percent_indicator imports to percent_indicator.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  percent_indicator: ^4.2.3
